@@ -11,7 +11,7 @@ $(document).ready(function(){
       }
       else if (gender === "Male" && snack==="Swamp Rats"){
         $("#answer2").show();}
-      else if (color === "Yellow" && color != "Green"|| activity==="ash" && color != "Green"){
+      else if (color === "Yellow" && color != "Green"|| activity==="ash"){
         $("#answer3").show();
       }
       else if (gender === "Male" && activity === "treasure" || snack === "National Treasure" || snack === "The Declaration of Independence") {

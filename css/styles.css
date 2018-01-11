@@ -5,3 +5,34 @@
 .container {
   width: 500px;
 }
+
+.jumbotron {
+  height:250px;
+  width: 400px;
+  text-align: center;
+  margin: 20px;
+  font-family: 'Lobster', cursive;
+  border: 2px solid black;
+
+}
+
+body {
+  background: linear-gradient(to right, #ef3b36, #ffffff);
+}
+
+#circular{
+    border-radius: 90%
+}
+
+#profile {
+  text-align:center;
+  font-weight: bold;
+}
+
+img {
+  margin-bottom: 20px;
+  width:350px;
+  height:350px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
